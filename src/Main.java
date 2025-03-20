@@ -104,6 +104,7 @@ public class Main {
         // convert string into array of chars
         char charArray[] = data.toCharArray(); 
         
+        // foreach through all characters and check if they're a digit or not
         for (char character : charArray) 
         {
             if (Character.isDigit(character)) 
